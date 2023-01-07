@@ -1,14 +1,14 @@
 #include "maingame.h"
 #include "ui_maingame.h"
 
-MainGame::MainGame(QWidget *parent)
+maingame::maingame(QWidget *parent)
     : QWidget(parent)
-    , ui(new Ui::MainGame)
+    , ui(new Ui::maingame)
 {
     ui->setupUi(this);
 }
 
-MainGame::~MainGame()
+maingame::~maingame()
 {
     delete ui;
 }

@@ -22,7 +22,8 @@ SOURCES += \
 HEADERS += \
     maingame.h
 
-FORMS +=
+FORMS += \
+    maingame.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
