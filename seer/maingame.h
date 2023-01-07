@@ -16,6 +16,6 @@ public:
     ~MainGame();
 
 private:
-    Ui::MainGame *ui;
+
 };
 #endif // MAINGAME_H
