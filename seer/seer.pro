@@ -16,13 +16,22 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    elf.cpp \
+    enemy.cpp \
     main.cpp \
-    maingame.cpp
+    maingame.cpp \
+    map.cpp \
+    partner.cpp
 
 HEADERS += \
-    maingame.h
+    elf.h \
+    enemy.h \
+    maingame.h \
+    map.h \
+    partner.h
 
-FORMS +=
+FORMS += \
+    maingame.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
